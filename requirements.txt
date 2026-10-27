@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+pydantic-settings>=2.2
+# Uniquement pour scripts/import_excel.py
+openpyxl>=3.1
+msoffcrypto-tool>=5.4
